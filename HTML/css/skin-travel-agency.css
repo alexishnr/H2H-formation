@@ -380,8 +380,8 @@ body,
 	border-color: #232323;
 }
 .bkg-hover-charcoal:hover{
-	background-color: #232323;
-	border-color: #232323;
+	background-color: #f48a00;
+	border-color: #f48a00;
 }
 .bkg-hover-charcoal1:hover{
 	background-color: #4679B3;
@@ -2422,7 +2422,6 @@ h4.project-title{
 	position: relative;
 }
 .form-response{
-	position: absolute;
 	font-size: 1rem;
 }
 .form-element,
@@ -3628,6 +3627,8 @@ blockquote.border{
 	}
 }
 
+
+
 /* Pricing Tables */
 .pricing-table-column.callout{
 	box-shadow: 0rem 0rem 1.8rem rgba(0,0,0,.2);
@@ -3750,5 +3751,27 @@ background-image: url(../images/travel-agency/slider/slide-3-fs.jpg	}
 	/* Signup */
 	.signup-2-1{
 		background-image: url(../images/travel-agency/generic/signup-1@2x.jpg);
+	}
+}
+
+@media screen and (max-width: 760px){
+h1 {
+    font-size: 41px !important;
+    margin: auto !important;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+h1 {
+    font-size: 4rem !important;
+    margin: auto !important;
+	}
+}
+
+@media screen and (max-width: 320px){
+h1 {
+    font-size: 3.7rem !important;
+    margin: auto !important;
 	}
 }
